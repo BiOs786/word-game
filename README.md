@@ -32,10 +32,9 @@ Rules:
 6. After clicking a tile it will be no more accessible.
 
 Images:
-![ScreenShot](http://imgur.com/a/GguWi)
 
 <p align="center">
-  <img src="GameScreen1.png" width="350"/>
+  <img src="GameScreen1.PNG" width="350"/>
 </p>
 
 Team Members: 
