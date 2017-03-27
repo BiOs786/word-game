@@ -1,4 +1,4 @@
-package dictionary;
+package wordGame;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

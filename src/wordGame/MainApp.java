@@ -1,5 +1,5 @@
 package wordGame;
-import dictionary.*;
+
 import java.util.List;
 import javax.swing.*;
 import java.awt.*;
@@ -9,11 +9,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
+
 public class MainApp {
 	
 	static DictionaryBST db;
 	static AutoCompleteDictionaryTrie autoDict;
-	static String fileName="data/dict.txt";
+	static String fileName="src/wordGame/dict.txt";
 	static public boolean startBool = false;
 	static boolean isPresent=false;
 	long startTime=0;
@@ -34,7 +35,7 @@ public class MainApp {
 	JLabel enteredWord = new JLabel("Entered word:");
 	JLabel score;
 	JLabel timeTaken;
-	JLabel currString = new JLabel("Typed words:");
+	JLabel currString = new JLabel("Typed word:");
 
 	JPanel panel = new JPanel(new GridLayout(10,10,2,2));
 	JPanel panelEast = new JPanel();

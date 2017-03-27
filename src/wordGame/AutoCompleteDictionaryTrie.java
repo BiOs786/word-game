@@ -1,17 +1,14 @@
 package wordGame;
-import dictionary.*;
 import java.util.List;
 import java.util.Set;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
 import java.util.LinkedList;
 
 public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 
-    private TrieNode root,curr,prev;
-    private int size=0;
-    private int count=0;
+    public TrieNode root,curr,prev;
+    public int count=0;
+    public int size=0;
     private int num=0;
     private LinkedList<TrieNode> queue = new LinkedList<TrieNode>();
     List<String> predictions = new ArrayList<String>();
@@ -34,6 +31,7 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	 */
 	public boolean addWord(String word)
 	{
+
 		int i=0;
 		char[] c = word.toLowerCase().toCharArray();
 		curr = root;
@@ -82,7 +80,6 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	 */
 	public int size()
 	{
-	    //TODO: Implement this method
 		size = 0;
 		printTree();
 		return size;
@@ -93,7 +90,6 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
 	@Override
 	public boolean isWord(String s) 
 	{
-	    // TODO: Implement this method
 		curr = root;
 		if(s.equals(""))
 			return false;
@@ -186,7 +182,7 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
  	 */
  	public void performBFSfromNode(TrieNode current)
  	{
- 		int count=0;
+ 		count=0;
  		curr = current;
  		Set<Character> temp = curr.getValidNextCharacters();
  		for(Character s: temp)
@@ -215,8 +211,6 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
  		{
  			return;
  		}
- 		
- 		//System.out.println(curr.getText());
  		
  		TrieNode next = null;
  		for (Character c : curr.getValidNextCharacters()) {

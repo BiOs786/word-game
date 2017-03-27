@@ -5,13 +5,17 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.util.*;
+
 public class Tile extends JButton implements ActionListener{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Character c;
 	static String mainString="";
 	Tile button;
 	//Tile button;
-	private boolean isVisited = false;
+	public boolean isVisited = false;
 	static public boolean start = false;
 	MainApp objectofMain;
 	TileListener t = new TileListener();
@@ -95,7 +99,6 @@ public class Tile extends JButton implements ActionListener{
 		public void mouseClicked(MouseEvent e) {
 			
 			// TODO Auto-generated method stub
-			Tile buton = (Tile) e.getSource();
 			if(!button.isVisited && MainApp.startBool)
 			{
 				setVisited(true);

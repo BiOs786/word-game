@@ -1,4 +1,4 @@
-package dictionary;
+package wordGame;
 
 public interface Dictionary {
 	/** Add this word to the dictionary.
