@@ -33,9 +33,21 @@ Rules:
 
 Images:
 
+Staring Screen:
 <p align="center">
-  <img src="GameScreen1.PNG" width="350"/>
+  <img src="GameScreen1.PNG" width="700"/>
 </p>
+
+In Game Screen: 
+<p align="center">
+  <img src="GameScreen2.PNG" width="350"/>
+</p>
+
+Hint Box:
+<p align="center">
+  <img src="GameHint.PNG" width="250"/>
+</p>
+  
 
 Team Members: 
 1. Salim Mapkar
