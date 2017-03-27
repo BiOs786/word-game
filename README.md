@@ -32,7 +32,7 @@ Rules:
 6. After clicking a tile it will be no more accessible.
 
 Images:
-![ScreenShot](https://raw.github.com/BiOs786/word-game/data/GameScreen1.png)
+![ScreenShot](GameScreen1.png)
 
 Team Members: 
 1. Salim Mapkar
