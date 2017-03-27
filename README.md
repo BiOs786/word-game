@@ -12,11 +12,11 @@ How to install:
 4. Build and run the project and Enjoy the Game!
 
 How to Play:
-1. Click the start buttons to form word.
-2. Keep forming as many words as you can and submit them by clicking check button.
+1. Click the 'start' buttons to form word.
+2. Keep forming as many words as you can and submit them by clicking 'check' button.
 3. If the enter word is a valid word then the score will be incremented.
-4. Use hint button to get help.
-5. Stop the Game by clicking on the stop button and your score and time taken will be displayed.
+4. Use 'hint' button to get help.
+5. Stop the Game by clicking on the 'stop' button and your score and time taken will be displayed.
 
 Features:
 1. Make the longest word and check it in the dictionary automatically to get more score.
@@ -38,7 +38,7 @@ Staring Screen:
   <img src="GameScreen1.PNG" width="700"/>
 </p>
 
-In Game Screen: 
+Button Grid: 
 <p align="center">
   <img src="GameScreen2.PNG" width="350"/>
 </p>
