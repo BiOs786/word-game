@@ -50,8 +50,6 @@ Hint Box:
   
 
 Team Members: 
-1. Salim Mapkar
-2. Khan Maaz
-3. Rumi Shaikh
-4. Uday Singh
+1. Maaz Khan
+2. Salim Mapkar
 
